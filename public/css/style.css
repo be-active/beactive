@@ -1,0 +1,128 @@
+body {
+    
+}
+
+/* blue info box*/
+.blue-bg {
+  color: #fff;
+  background: #57889c;
+  background-color: #B3E5D7;
+}
+
+/*padding class*/
+.padding{
+	padding-top: 8%;
+}
+
+.panel-grey{
+	background-color: #DEC5DE;
+	border-color: #DEC5DE;
+}
+.grey-panel-heading{
+  color: #ffffff;
+	background-color: #DEC5DE;
+	border-color: #DEC5DE;
+	padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-lightgr{
+	background-color: #9AB5A8;
+	border-color: #9AB5A8;
+}
+.lightgr-panel-heading{
+  color: #ffffff;
+	background-color: #9AB5A8;
+	border-color: #9AB5A8;
+	padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.panel-lightblue{
+	background-color: #F8EEF8;
+	border-color: #F1FBFE;
+}
+.lightblue-panel-heading{
+  color: #D8B2D8;
+	background-color: #F1FBFE;
+	border-color:#F1FBFE;
+	padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+
+
+/* background coloured light */
+.bcg-color{
+	background-color: #BEEADD;
+	opacity: 0.8; 
+    -moz-opacity: 0.8; 
+	-webkit-opacity: 0.8; 
+}
+
+
+#remember{
+    margin-right: 7px;
+}
+
+.form-inline{
+    display: inline-block;
+}
+
+/* opacity */
+.opacity{
+    opacity: 0.5; /* opacity [0-1] */
+    -moz-opacity: 0.5; /* opacity [0-1] */
+    -webkit-opacity: 0.5; /* opacity [0-1] */
+}
+
+/* Background image */
+.bg {
+padding-top:0px;
+	background: url(../images/runner.jpg);
+	background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+   min-height: 100%; min-width: 100%;
+	
+}
+
+#geo_info {
+	width: 350px;
+	margin: 50px auto;
+	padding: 20px;
+	background: white;
+	
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#geo_info:hover {
+	background: #FEFFBA;
+}
+
+dd { margin: 0 0 0 2em; }
+dd span { font-weight:bold; }
+
+#warning {
+	width: 50%; margin: 0 auto;
+}
+    #mapPlaceholder {
+
+        height:400px; 
+        width: 100%;
+		}
+		
+		
+
